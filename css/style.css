@@ -1,0 +1,45 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+body {
+    background: url(../Images/mountains.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.main {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.158), hsla(178, 44%, 50%, 0.781), rgba(255, 255, 255, 0.199));
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 10px rgba(29, 29, 29, 0.473);
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    height: 700px;
+    width: 500px;
+}
+
+.header {
+    /* position: relative; */
+    height: 10%;
+    background-color: hsla(178, 44%, 50%, 0.301);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header:hover {
+    background-color: rgba(0, 255, 255, 0.137);
+}
+
+.btn {
+    background-color: hsla(178, 44%, 50%, 0.356);
+    outline: 2px solid white;
+}
